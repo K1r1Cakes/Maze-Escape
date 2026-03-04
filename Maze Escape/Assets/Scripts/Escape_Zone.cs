@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 public class Escape_Zone : MonoBehaviour
 {
     public GameObject panel;
-    public string[] Win;
+    public GameObject winText;
 
     private void OnTriggerEnter2D(Collider2D collide)
     {
@@ -12,6 +12,7 @@ public class Escape_Zone : MonoBehaviour
         {
             Debug.Log("Player Escaped!");
             panel.SetActive(true);
+            winText.SetActive(true);
         }
     }
 }

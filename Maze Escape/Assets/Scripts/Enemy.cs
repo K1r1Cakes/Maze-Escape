@@ -6,6 +6,8 @@ public class Enemy : MonoBehaviour
     Rigidbody2D rb;
     Transform target;
     Vector2 moveDirection;
+    public GameObject panel;
+    public GameObject loseText;
 
     private void Awake()
     {
@@ -32,6 +34,16 @@ public class Enemy : MonoBehaviour
         if (target)
         {
             rb.linearVelocity = new Vector2(moveDirection.x, moveDirection.y) * moveSpeed;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+       if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Caught Player");
+            panel.SetActive(true);
+            loseText.SetActive(true);
         }
     }
 }

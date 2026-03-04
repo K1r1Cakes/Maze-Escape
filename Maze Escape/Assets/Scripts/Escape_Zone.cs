@@ -15,4 +15,12 @@ public class Escape_Zone : MonoBehaviour
             winText.SetActive(true);
         }
     }
+
+    void Update()
+    {
+        if (panel.activeSelf)
+        {
+            PauseController.setPause(true);
+        }
+    } 
 }

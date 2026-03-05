@@ -22,8 +22,6 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-
         if (target)
         {
             Vector3 direction = (target.position - transform.position).normalized;
@@ -38,7 +36,7 @@ public class Enemy : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             return;
         }
-        
+
         if (target)
         {
             rb.linearVelocity = new Vector2(moveDirection.x, moveDirection.y) * moveSpeed;

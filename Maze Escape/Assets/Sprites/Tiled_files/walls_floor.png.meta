@@ -203,10 +203,10 @@ TextureImporter:
       name: walls_floor_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 400
-        width: 64
-        height: 64
+        x: 16
+        y: 368
+        width: 48
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: walls_floor_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 400
-        width: 64
-        height: 64
+        x: 80
+        y: 368
+        width: 48
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,7 +252,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,9 +269,9 @@ TextureImporter:
       name: walls_floor_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 400
-        width: 64
+        x: 144
+        y: 384
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -296,7 +296,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -318,7 +318,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -340,7 +340,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -357,10 +357,10 @@ TextureImporter:
       name: walls_floor_7
       rect:
         serializedVersion: 2
-        x: 192
-        y: 336
-        width: 64
-        height: 64
+        x: 144
+        y: 320
+        width: 112
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,9 +379,9 @@ TextureImporter:
       name: walls_floor_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 272
-        width: 64
+        x: 16
+        y: 288
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -401,9 +401,9 @@ TextureImporter:
       name: walls_floor_9
       rect:
         serializedVersion: 2
-        x: 64
-        y: 272
-        width: 64
+        x: 80
+        y: 288
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -424,9 +424,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 272
-        width: 64
-        height: 64
+        y: 271
+        width: 83
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +445,10 @@ TextureImporter:
       name: walls_floor_11
       rect:
         serializedVersion: 2
-        x: 192
+        x: 237
         y: 272
-        width: 64
-        height: 64
+        width: 19
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,10 +467,10 @@ TextureImporter:
       name: walls_floor_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 208
-        width: 64
-        height: 64
+        x: 16
+        y: 239
+        width: 16
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,10 +489,10 @@ TextureImporter:
       name: walls_floor_13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 208
-        width: 64
-        height: 64
+        x: 77
+        y: 240
+        width: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,10 +511,10 @@ TextureImporter:
       name: walls_floor_14
       rect:
         serializedVersion: 2
-        x: 128
-        y: 208
+        x: 112
+        y: 224
         width: 64
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,7 +538,7 @@ TextureImporter:
         width: 41
         height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -555,10 +555,10 @@ TextureImporter:
       name: walls_floor_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
-        width: 64
-        height: 64
+        x: 16
+        y: 176
+        width: 15
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,10 +577,10 @@ TextureImporter:
       name: walls_floor_17
       rect:
         serializedVersion: 2
-        x: 64
-        y: 144
-        width: 64
-        height: 64
+        x: 82
+        y: 133
+        width: 29
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,9 +599,9 @@ TextureImporter:
       name: walls_floor_18
       rect:
         serializedVersion: 2
-        x: 128
+        x: 160
         y: 144
-        width: 64
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -621,10 +621,10 @@ TextureImporter:
       name: walls_floor_19
       rect:
         serializedVersion: 2
-        x: 192
+        x: 224
         y: 144
-        width: 64
-        height: 64
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,10 +643,10 @@ TextureImporter:
       name: walls_floor_20
       rect:
         serializedVersion: 2
-        x: 0
+        x: 16
         y: 80
-        width: 64
-        height: 64
+        width: 16
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,10 +665,10 @@ TextureImporter:
       name: walls_floor_21
       rect:
         serializedVersion: 2
-        x: 64
+        x: 80
         y: 80
-        width: 64
-        height: 64
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,8 +689,8 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 80
-        width: 64
-        height: 64
+        width: 32
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -714,7 +714,7 @@ TextureImporter:
         width: 32
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -731,10 +731,10 @@ TextureImporter:
       name: walls_floor_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 64
-        height: 64
+        x: 5
+        y: 29
+        width: 21
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -755,8 +755,8 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 16
-        width: 64
-        height: 64
+        width: 192
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,7 +780,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -802,7 +802,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -824,7 +824,7 @@ TextureImporter:
         width: 16
         height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -841,10 +841,10 @@ TextureImporter:
       name: walls_floor_29
       rect:
         serializedVersion: 2
-        x: 192
+        x: 224
         y: 208
-        width: 64
-        height: 64
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -868,7 +868,7 @@ TextureImporter:
         width: 14
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -890,7 +890,7 @@ TextureImporter:
         width: 16
         height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -912,7 +912,7 @@ TextureImporter:
         width: 16
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -929,10 +929,10 @@ TextureImporter:
       name: walls_floor_33
       rect:
         serializedVersion: 2
-        x: 192
+        x: 224
         y: 80
-        width: 64
-        height: 64
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -956,7 +956,7 @@ TextureImporter:
         width: 21
         height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

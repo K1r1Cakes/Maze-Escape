@@ -7,4 +7,5 @@ public class PauseController : MonoBehaviour
     {
         isGamePaused = pause;
     }
+
 }

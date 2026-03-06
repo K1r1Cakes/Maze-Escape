@@ -29,7 +29,7 @@ public class New_Enemy : MonoBehaviour
     {
          if (PauseController.isGamePaused)
         {
-            rb.linearVelocity = Vector2.zero;
+            agent.speed = 0;
             return;
         }
     }

@@ -3,17 +3,19 @@ using UnityEngine.AI;
 
 public class New_Enemy : MonoBehaviour
 {
-   public Transform player;
+   public Transform target;
    private NavMeshAgent agent;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
     }
 
     void Update()
     {
-        agent.destination = player.position;
+        agent.SetDestination(target.position);
     }
 }
 

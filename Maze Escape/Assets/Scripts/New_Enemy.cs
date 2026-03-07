@@ -7,6 +7,9 @@ public class New_Enemy : MonoBehaviour
    private NavMeshAgent agent;
     public GameObject panel;
     public GameObject loseText;
+
+    public float speedRate = 0.1f;
+
      Rigidbody2D rb;
 
      private void Awake()
@@ -23,6 +26,7 @@ public class New_Enemy : MonoBehaviour
     void Update()
     {
         agent.SetDestination(target.position);
+
     }
 
     void FixedUpdate()
@@ -32,6 +36,9 @@ public class New_Enemy : MonoBehaviour
             agent.speed = 0;
             return;
         }
+
+                agent.speed += speedRate*Time.deltaTime;
+
     }
 
      private void OnCollisionEnter2D(Collision2D collision)

@@ -1669,7 +1669,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You WIn!
+  m_text: You Win!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2281,6 +2281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 80603601}
   winText: {fileID: 668038929}
+  unlock: {fileID: 767185585}
 --- !u!61 &901647710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2391,11 +2392,11 @@ Transform:
   m_GameObject: {fileID: 901647708}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.7414, y: 0.2614, z: -0.007618595}
+  m_LocalPosition: {x: 19.827044, y: 0.13796109, z: 0}
   m_LocalScale: {x: 0.4550108, y: 3.0675569, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1488742446}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &931929482
 GameObject:
@@ -5955,7 +5956,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 239649117}
-  - {fileID: 901647712}
   - {fileID: 1091056401}
   - {fileID: 767185584}
   m_Father: {fileID: 0}
@@ -7160,6 +7160,7 @@ SceneRoots:
   - {fileID: 1457120438}
   - {fileID: 433540370}
   - {fileID: 836753597}
+  - {fileID: 901647712}
   - {fileID: 1488742446}
   - {fileID: 129627322}
   - {fileID: 1796671792}

@@ -9,7 +9,6 @@ public class New_Enemy : MonoBehaviour
     public GameObject loseText;
 
     public float speedRate = 0.1f;
-    public float startSpeed = 1f;
 
      Rigidbody2D rb;
 
@@ -34,7 +33,7 @@ public class New_Enemy : MonoBehaviour
 
         agent.SetDestination(target.position);
          
-        agent.speed = startSpeed + Time.timeSinceLevelLoad*speedRate;
+        agent.speed += speedRate*Time.deltaTime;
 
     }
 

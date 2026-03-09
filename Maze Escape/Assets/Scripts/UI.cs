@@ -1,5 +1,7 @@
 
+using UnityEditor.ShortcutManagement;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class UI : MonoBehaviour
 {
@@ -7,6 +9,7 @@ public class UI : MonoBehaviour
     public GameObject enemy;
     public GameObject panel;
 
+    public New_Enemy new_Enemy;
     Vector3 playerPos;
     Vector3 enemyPos;
 

@@ -2097,6 +2097,7 @@ MonoBehaviour:
   player: {fileID: 198367216}
   enemy: {fileID: 2121824542}
   panel: {fileID: 80603601}
+  new_Enemy: {fileID: 0}
 --- !u!1 &882835507
 GameObject:
   m_ObjectHideFlags: 0
@@ -7126,7 +7127,6 @@ MonoBehaviour:
   panel: {fileID: 80603601}
   loseText: {fileID: 1207445148}
   speedRate: 0.1
-  startSpeed: 2
 --- !u!195 &2121824549
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7137,7 +7137,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 0.5
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

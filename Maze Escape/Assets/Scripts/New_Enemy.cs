@@ -9,6 +9,7 @@ public class New_Enemy : MonoBehaviour
     public GameObject loseText;
 
     public float speedRate = 0.1f;
+    public float startSpeed = 2f;
 
      Rigidbody2D rb;
 
@@ -25,21 +26,29 @@ public class New_Enemy : MonoBehaviour
 
     void Update()
     {
-        agent.SetDestination(target.position);
-
-    }
-
-    void FixedUpdate()
-    {
-         if (PauseController.isGamePaused)
-        {
+           if (PauseController.isGamePaused)
+         {
             agent.speed = 0;
             return;
         }
 
-                agent.speed += speedRate*Time.deltaTime;
+        agent.SetDestination(target.position);
+         
+        agent.speed = startSpeed + Time.timeSinceLevelLoad*speedRate;
 
     }
+
+    // void FixedUpdate()
+    // {
+    //      if (PauseController.isGamePaused)
+    //     {
+    //         agent.speed = 0;
+    //         return;
+    //     }
+
+    //      agent.speed += speedRate*Time.deltaTime;
+
+    // }
 
      private void OnCollisionEnter2D(Collision2D collision)
     {

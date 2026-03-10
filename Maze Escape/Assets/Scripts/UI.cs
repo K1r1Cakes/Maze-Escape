@@ -34,8 +34,7 @@ public class UI : MonoBehaviour
         Debug.Log("Reset");
         player.transform.position = playerPos;
         enemy.transform.position = enemyPos;
-        //key.SetActive(true);
-        gate.isCollected = false;
+        gate.ResetKey();
         enemy.SetActive(false);
         panel.SetActive(false);
         PauseController.setPause(false);

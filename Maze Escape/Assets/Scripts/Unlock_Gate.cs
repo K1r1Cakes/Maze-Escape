@@ -10,13 +10,6 @@ public class Unlock_Gate : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    void Update()
-    {
-        if (isCollected == false)
-        {
-            gameObject.SetActive(true);
-        }
-    }
     private void OnTriggerEnter2D(Collider2D collide)
     {
         if (collide.CompareTag("Player"))
@@ -31,6 +24,11 @@ public class Unlock_Gate : MonoBehaviour
     void keyCollected()
     {
         gameObject.SetActive(false); 
+    }
 
+    public void ResetKey()
+    {
+        isCollected = false;
+        gameObject.SetActive(true);
     }
 }

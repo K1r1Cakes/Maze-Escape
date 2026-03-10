@@ -10,6 +10,7 @@ public class UI : MonoBehaviour
     public GameObject panel;
 
     public GameObject key;
+    public Unlock_Gate gate;
 
     Vector3 playerPos;
     Vector3 enemyPos;
@@ -34,11 +35,10 @@ public class UI : MonoBehaviour
         Debug.Log("Reset");
         player.transform.position = playerPos;
         enemy.transform.position = enemyPos;
-        enemy.SetActive(false);
-        Debug.Log("Enemy active: "+enemy.activeSelf);
-        panel.SetActive(false);
         key.SetActive(true);
+        gate.isCollected = false;
+        enemy.SetActive(false);
+        panel.SetActive(false);
         PauseController.setPause(false);
-        
     }
 }

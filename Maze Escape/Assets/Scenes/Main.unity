@@ -827,11 +827,11 @@ Transform:
   m_GameObject: {fileID: 239649113}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.0657, y: -0.1535, z: -0.007618595}
+  m_LocalPosition: {x: -23.980057, y: -0.27693892, z: 0}
   m_LocalScale: {x: 0.47922596, y: 3.4799435, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1488742446}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &239649118
 MonoBehaviour:
@@ -2349,6 +2349,7 @@ MonoBehaviour:
   enemy: {fileID: 2121824542}
   panel: {fileID: 80603601}
   key: {fileID: 2121824542}
+  gate: {fileID: 767185585}
 --- !u!1 &882835507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,7 +2536,6 @@ MonoBehaviour:
   winText: {fileID: 668038929}
   loseText: {fileID: 1207445148}
   unlock: {fileID: 767185585}
-  enemy: {fileID: 2121824542}
   fadeAwayMessage: {fileID: 1900060912}
 --- !u!61 &901647710
 BoxCollider2D:
@@ -6211,7 +6211,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 239649117}
   - {fileID: 1091056401}
   - {fileID: 767185584}
   m_Father: {fileID: 0}
@@ -6681,7 +6680,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -557, y: 459}
+  m_AnchoredPosition: {x: -676, y: 518.75}
   m_SizeDelta: {x: 288.9435, y: 42.5047}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900060912
@@ -6726,8 +6725,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6744,8 +6743,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6782,7 +6781,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -3.0370178}
+  m_margin: {x: 0, y: 0, z: -507.41718, w: -3.0370178}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7694,7 +7693,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.2
-  m_Speed: 0
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7718,6 +7717,7 @@ SceneRoots:
   - {fileID: 433540370}
   - {fileID: 836753597}
   - {fileID: 901647712}
+  - {fileID: 239649117}
   - {fileID: 1488742446}
   - {fileID: 129627322}
   - {fileID: 1796671792}

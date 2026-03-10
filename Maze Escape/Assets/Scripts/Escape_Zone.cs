@@ -7,8 +7,7 @@ public class Escape_Zone : MonoBehaviour
     public GameObject winText;
     public GameObject loseText;
     public Unlock_Gate unlock;
-    public GameObject enemy;
-    public FadeAwayMessage fadeAwayMessage;
+       public FadeAwayMessage fadeAwayMessage;
 
     private void OnTriggerEnter2D(Collider2D collide)
     {
@@ -18,7 +17,6 @@ public class Escape_Zone : MonoBehaviour
             panel.SetActive(true);
             winText.SetActive(true);
             loseText.SetActive(false);
-            //enemy.SetActive(false);
         }
         else
         {

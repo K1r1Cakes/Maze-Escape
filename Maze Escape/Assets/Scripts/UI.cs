@@ -9,8 +9,8 @@ public class UI : MonoBehaviour
     public GameObject enemy;
     public GameObject panel;
 
-    public New_Enemy new_Enemy;
     public GameObject key;
+
     Vector3 playerPos;
     Vector3 enemyPos;
 
@@ -35,8 +35,10 @@ public class UI : MonoBehaviour
         player.transform.position = playerPos;
         enemy.transform.position = enemyPos;
         enemy.SetActive(false);
+        Debug.Log("Enemy active: "+enemy.activeSelf);
         panel.SetActive(false);
         key.SetActive(true);
         PauseController.setPause(false);
+        
     }
 }

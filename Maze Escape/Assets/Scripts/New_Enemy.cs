@@ -7,8 +7,9 @@ public class New_Enemy : MonoBehaviour
    private NavMeshAgent agent;
     public GameObject panel;
     public GameObject loseText;
+    public GameObject winText;
 
-    public float speedRate = 0.3f;
+    public float speedRate = 0.5f;
 
      Rigidbody2D rb;
 
@@ -56,6 +57,7 @@ public class New_Enemy : MonoBehaviour
             Debug.Log("Caught Player");
             panel.SetActive(true);
             loseText.SetActive(true);
+            winText.SetActive(false);
         }
     }
 }

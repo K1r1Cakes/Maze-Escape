@@ -7682,7 +7682,7 @@ MonoBehaviour:
   panel: {fileID: 80603601}
   loseText: {fileID: 1207445148}
   winText: {fileID: 668038929}
-  speedRate: 0.1
+  speedRate: 0.2
 --- !u!195 &2121824549
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7693,7 +7693,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.2
-  m_Speed: 2
+  m_Speed: 0
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

@@ -9,7 +9,7 @@ public class New_Enemy : MonoBehaviour
     public GameObject loseText;
     public GameObject winText;
 
-    public float speedRate = 0.5f;
+    public float speedRate;
 
      Rigidbody2D rb;
 
@@ -38,18 +38,7 @@ public class New_Enemy : MonoBehaviour
 
     }
 
-    // void FixedUpdate()
-    // {
-    //      if (PauseController.isGamePaused)
-    //     {
-    //         agent.speed = 0;
-    //         return;
-    //     }
-
-    //      agent.speed += speedRate*Time.deltaTime;
-
-    // }
-
+    
      private void OnCollisionEnter2D(Collision2D collision)
     {
        if (collision.gameObject.CompareTag("Player"))
@@ -58,6 +47,7 @@ public class New_Enemy : MonoBehaviour
             panel.SetActive(true);
             loseText.SetActive(true);
             winText.SetActive(false);
+            
         }
     }
 }

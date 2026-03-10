@@ -30,10 +30,6 @@ public class New_Enemy : MonoBehaviour
             agent.speed = 0;
             return;
         }
-        else
-        {
-            agent.speed = 2f;
-        }
 
         agent.SetDestination(target.position);
          

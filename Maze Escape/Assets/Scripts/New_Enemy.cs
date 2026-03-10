@@ -8,7 +8,7 @@ public class New_Enemy : MonoBehaviour
     public GameObject panel;
     public GameObject loseText;
 
-    public float speedRate = 0.1f;
+    public float speedRate = 0.3f;
 
      Rigidbody2D rb;
 

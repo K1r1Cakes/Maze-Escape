@@ -50,6 +50,11 @@ public class New_Enemy : MonoBehaviour
             
         }
     }
+
+    public void resetSpeed()
+    {
+        agent.speed = 2f;
+    }
 }
 
 

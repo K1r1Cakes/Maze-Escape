@@ -7,7 +7,7 @@ public class UI : MonoBehaviour
     public GameObject player;
     public GameObject enemy;
     public GameObject panel;
-
+    public New_Enemy new_Enemy;
     public GameObject key;
     public Unlock_Gate gate;
 
@@ -35,6 +35,7 @@ public class UI : MonoBehaviour
         player.transform.position = playerPos;
         enemy.transform.position = enemyPos;
         gate.ResetKey();
+        new_Enemy.resetSpeed();
         enemy.SetActive(false);
         panel.SetActive(false);
         PauseController.setPause(false);

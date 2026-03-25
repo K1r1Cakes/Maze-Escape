@@ -490,6 +490,7 @@ GameObject:
   - component: {fileID: 198367219}
   - component: {fileID: 198367218}
   - component: {fileID: 198367217}
+  - component: {fileID: 198367223}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -551,6 +552,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: e8b47b8e-b793-4721-939d-af9df3fc56c1
     m_ActionName: 'Player/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 198367223}
+        m_TargetAssemblyTypeName: PlayerShoot, Assembly-CSharp
+        m_MethodName: onFire
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 82b56bc8-eb55-455b-9c33-fdd0e4d30d16
+    m_ActionName: 'Player/Fire[/Mouse/leftButton]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -699,6 +716,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &198367223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198367216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05eaf85e4142ae949b4f252fa3c7c38c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 6301111249119673250, guid: 7fab41ca903e2d849a1c744fa7c26942, type: 3}
+  bulletSpeed: 8
 --- !u!1 &239649113
 GameObject:
   m_ObjectHideFlags: 0

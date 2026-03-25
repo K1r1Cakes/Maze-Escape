@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
    private float moveSpeed = 4f;
    private Rigidbody2D rb;
    private Vector2 moveInput;
+   public float rotationSpeed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,10 +23,22 @@ public class PlayerMovement : MonoBehaviour
         }
         
         rb.linearVelocity = moveInput * moveSpeed;
+        RotateInDirectionOfInput();
     }
 
    public void Move(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
+    }
+
+    private void RotateInDirectionOfInput()
+    {
+        if (moveInput != Vector2.zero)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(transform.forward, moveInput);
+            Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+
+            rb.MoveRotation(rotation);
+        }
     }
 }
